@@ -4,7 +4,7 @@
 # 2 # Taking from excel file all information about nutrition
 # 3 # Need a file with recipes, based on neutrons information and ingredients is counting all recipe neutrons
 
-import sqlit
+import sqlite3
 
 conn = sqlite3.connect('health.db')
 cur = conn.cursor()
