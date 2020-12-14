@@ -35,5 +35,6 @@ while True:
         break
 
 conn.close()
+
 #print(cur.fetchall())
 #print(type(cur.fetchall()))
