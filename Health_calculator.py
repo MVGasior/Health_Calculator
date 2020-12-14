@@ -5,6 +5,8 @@
 # 3 # Need a file with recipes, based on neutrons information and ingredients is counting all recipe neutrons
 
 import sqlite3
+import numpy as np
+import pandas as pd
 
 conn = sqlite3.connect('health.db')
 cur = conn.cursor()
